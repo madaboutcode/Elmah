@@ -1,0 +1,97 @@
+X-Sender: noreply@example.com
+X-Receiver: elmah@example.com
+MIME-Version: 1.0
+From: noreply@example.com
+To: elmah@example.com
+X-Priority: 1
+Priority: urgent
+Importance: high
+Date: 5 Jan 2010 01:06:25 -0500
+Subject: Error (System.Web.HttpException): File does not exist.
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+<html>=0D=0A	<head>=0D=0A		<title>=0D=0A			Error: File does not exist.=0D=0A=
+		</title>=0D=0A		<style>=0D=0A			=0D=0A                body { font-family:=
+ verdana, arial, helvetic; font-size: x-small; } =0D=0A                td,=
+ th, pre { font-size: x-small; } =0D=0A                #errorDetail { padding:=
+ 1em; background-color: #FFFFCC; } =0D=0A                #errorMessage {=
+ font-size: medium; font-style: italic; color: maroon; }=0D=0A         =
+       h1 { font-size: small; }=0D=0A=0D=0A		</style>=0D=0A=0D=0A	</head>=
+=0D=0A	<body>=0D=0A		<p id=3D"errorMessage">System.Web.HttpException: File=
+ does not exist.</p>=0D=0A		<p>Generated: Tue, 05 Jan 2010 06:06:25 GMT</p>=
+=0D=0A		<pre id=3D"errorDetail">=0D=0ASystem.Web.HttpException: File does=
+ not exist.=0D=0A   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo,=
+ String physicalPath, HttpResponse response)=0D=0A   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext=
+ context)=0D=0A   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext=
+ context, AsyncCallback callback, Object state)=0D=0A   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()=
+=0D=0A   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step,=
+ Boolean&amp; completedSynchronously)=0D=0A		</pre>=0D=0A		<h1>=0D=0A		=
+	Server Variables=0D=0A		</h1>=0D=0A		<table cellpadding=3D"5" cellspacing=3D"0"=
+ border=3D"1" width=3D"100%">=0D=0A			<tr valign=3D"top">=0D=0A				<th align=3D"left">Name</th><th=
+ align=3D"left">Value</th>=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>ALL_HTTP</td><td>HTTP_CONNECTION:keep-alive=
+=0D=0AHTTP_KEEP_ALIVE:300=0D=0AHTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=3D0.9,*/*;q=3D0.8=
+=0D=0AHTTP_ACCEPT_CHARSET:ISO-8859-1,utf-8;q=3D0.7,*;q=3D0.7=0D=0AHTTP_ACCEPT_ENCODING:gzip,deflate=
+=0D=0AHTTP_ACCEPT_LANGUAGE:en=0D=0AHTTP_HOST:localhost:54321=0D=0AHTTP_USER_AGENT:Mozilla/5.0=
+ (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6=
+ (.NET CLR 3.5.30729)=0D=0A</td>=0D=0A			</tr><tr valign=3D"top">=0D=0A=
+				<td>ALL_RAW</td><td>Connection: keep-alive=0D=0AKeep-Alive: 300=0D=0AAccept:=
+ text/html,application/xhtml+xml,application/xml;q=3D0.9,*/*;q=3D0.8=0D=0AAccept-Charset:=
+ ISO-8859-1,utf-8;q=3D0.7,*;q=3D0.7=0D=0AAccept-Encoding: gzip,deflate=0D=0AAccept-Language:=
+ en=0D=0AHost: localhost:54321=0D=0AUser-Agent: Mozilla/5.0 (Windows; U;=
+ Windows NT 5.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6 (.NET CLR=
+ 3.5.30729)=0D=0A</td>=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>APPL_MD_PATH</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>APPL_PHYSICAL_PATH</td><td>D:\Workshop\SourceCode\Elmah\samples\Demo\</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>AUTH_TYPE</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>AUTH_USER</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>AUTH_PASSWORD</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>LOGON_USER</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>REMOTE_USER</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_COOKIE</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_FLAGS</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_ISSUER</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_KEYSIZE</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_SECRETKEYSIZE</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_SERIALNUMBER</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_SERVER_ISSUER</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_SERVER_SUBJECT</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CERT_SUBJECT</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CONTENT_LENGTH</td><td>0</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>CONTENT_TYPE</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>GATEWAY_INTERFACE</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTPS</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTPS_KEYSIZE</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTPS_SECRETKEYSIZE</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTPS_SERVER_ISSUER</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTPS_SERVER_SUBJECT</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>INSTANCE_ID</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>INSTANCE_META_PATH</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>LOCAL_ADDR</td><td>127.0.0.1</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>PATH_INFO</td><td>/favicon.ico</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>PATH_TRANSLATED</td><td>D:\Workshop\SourceCode\Elmah\samples\Demo\favicon.ico</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>QUERY_STRING</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>REMOTE_ADDR</td><td>127.0.0.1</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>REMOTE_HOST</td><td>127.0.0.1</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>REMOTE_PORT</td><td>&nbsp;</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>REQUEST_METHOD</td><td>GET</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>SCRIPT_NAME</td><td>/favicon.ico</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>SERVER_NAME</td><td>localhost</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>SERVER_PORT</td><td>54321</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>SERVER_PORT_SECURE</td><td>0</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>SERVER_PROTOCOL</td><td>HTTP/1.1</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>SERVER_SOFTWARE</td><td>Cassini/3.5.0.0</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>URL</td><td>/favicon.ico</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTP_CONNECTION</td><td>keep-alive</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTP_KEEP_ALIVE</td><td>300</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTP_ACCEPT</td><td>text/html,application/xhtml+xml,application/xml;q=3D0.9,*/*;q=3D0.8</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTP_ACCEPT_CHARSET</td><td>ISO-8859-1,utf-8;q=3D0.7,*;q=3D0.7</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTP_ACCEPT_ENCODING</td><td>gzip,deflate</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTP_ACCEPT_LANGUAGE</td><td>en</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTP_HOST</td><td>localhost:54321</td>=
+=0D=0A			</tr><tr valign=3D"top">=0D=0A				<td>HTTP_USER_AGENT</td><td>Mozilla/5.0=
+ (Windows; U; Windows NT 5.1; en-US; rv:1.9.1.6) Gecko/20091201 Firefox/3.5.6=
+ (.NET CLR 3.5.30729)</td>=0D=0A			</tr>=0D=0A		</table>=0D=0A		<p><span>Powered=
+ by <a href=3D"http://elmah.googlecode.com/">ELMAH</a>, version 2.0.11227.2305.=
+ Copyright (c) 2004-9, Atif Aziz. All rights reserved. Licensed under <a=
+ href=3D"http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version=
+ 2.0</a>. </span></p>=0D=0A	</body>=0D=0A=0D=0A</html>=0D=0A
